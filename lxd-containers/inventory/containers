@@ -1,0 +1,9 @@
+[local]
+localhost
+
+[containers]
+haproxy ansible_connection=lxd
+influxdb ansible_connection=lxd
+grafana ansible_connection=lxd
+couchdb ansible_connection=lxd
+node-red ansible_connection=lxd
